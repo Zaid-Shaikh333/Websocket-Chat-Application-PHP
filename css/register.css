@@ -1,0 +1,115 @@
+.form-group{
+	margin: 15px;
+	padding: 10px;
+}
+.form-group i{
+	margin: 0.5rem;
+	font-size: 1.5rem;
+	color: #1e90ff;
+}
+.form-group input{
+	width: 70%;
+	height: 2.5rem;
+	outline: none;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid dodgerblue;
+	text-align: center;
+}
+.form-group button{
+	transition: 0.75s;
+}
+.card-title{
+	font-size: 2rem;
+	font-family: monospace;
+	margin-top: 2rem;
+}
+.container{
+	top: 20%;
+}
+.btn{
+	transition: 1s;
+}
+.card-body{
+	overflow-y: auto;
+}
+.message-body{
+	height: 600px;
+	flex-direction: column;
+	box-shadow: 0 0 3px 0;
+	overflow-y: auto;
+}
+.message-body h3{
+	text-align: center;
+	font-family: cursive;
+	padding: 1rem;
+	background: #8251fc;
+    color: white;
+}
+.send-message{
+	margin: .4rem 0 0 0;
+}
+.send-message input{
+	width: 90%;
+	height: 3rem;
+	overflow-y: auto;
+	outline: none;
+}
+.send-message button{
+	width: 9%;
+	float: right;
+	height: 3rem;
+	color: #0d6efd;
+	background: #fff;
+	border: 0.5px solid;
+	transition: 0.75s;
+}
+.send-message button:hover{
+	color: white;
+	background: #0d6efd;
+}
+.shadow-box {
+    box-shadow: 0px 0px 6px 0px !important;
+}
+.custom-alert{
+	position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: .2rem;
+    margin-left: 0.25rem;
+    margin-right: .25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem .75rem;
+}
+.modal-right{
+	color: #212529!important;
+	background-color: #eceaf1;
+}
+.right-space{
+    margin-right: auto;
+}
+
+.user_list {
+	max-height: 100vh;
+	margin: 1rem 0;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.thead-style{
+	background: #8251fc;
+    color: white;
+    font-size: larger;
+    font-family: cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+.table-row-users{
+	margin: .2rem 0;
+}
+.table-row-users td{
+	font-family: 'Cinzel', sans-serif;
+}
+.table-row-users:nth-child(even)
+{
+	background: rgb(221 228 255);
+}
